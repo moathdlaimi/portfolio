@@ -44,43 +44,42 @@ function Projects() {
 
            <div className="sub-container"
             ref={el => project1 = el}>
-
-             <img className="image" src={gizmo} alt=""/>
+              <div className="gizmo-img"></div>
              <a href="https://gizmo-frontend.herokuapp.com/" target="_blank">
                <div className="text">Gizmo - tool share</div>
              </a>
            </div>
 
            <div className="sub-container" ref={el => project2 = el}>
-             <img className="image" src={greatfood} alt="" />
+             <div className="greatfood-img"></div>
              <a href="https://greatfood.herokuapp.com/" target="_blank">
                <div className="text">grEAT food - user contriubed recipes</div>
              </a>
            </div>
 
            <div className="sub-container" ref={el => project3 = el}>
-             <img className="image" id="rolodex" src={rolodex} alt="" />
+             <div className="rolodex-img"></div>
              <a href="https://cohortrolodex.herokuapp.com/" target="_blank">
                <div className="text">Cohortrolodex - GA cohort</div>
              </a>
            </div>
 
            <div className="sub-container" ref={el => project4 = el}>
-             <img className="image" src={weather} alt="" />
+             <div className="weather-img"></div>
              <a href="https://moathdlaimi.github.io/" target="_blank">
                <div className="text">The Weather App</div>
              </a>
            </div>
 
            <div className="sub-container" ref={el => project5 = el}>
-             <img className="image" src={wish} alt="" />
+             <div className="wish-img"></div>
              <a href="https://sheltered-garden-16773.herokuapp.com/" target="_blank">
                <div className="text">React wishlist</div>
              </a>
            </div>
 
            <div className="sub-container" ref={el => project6 = el}>
-             <img className="image" src={calc} alt="" />
+             <div className="calc-img"></div>
              <a href="https://github.com/moathdlaimi/React_Calculator">
                <div className="text">React - iOS mock calculator</div>
              </a>

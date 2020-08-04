@@ -8,7 +8,8 @@ import '../css/Home.css'
 
 function Home() {
 
-  const containersRef = useRef(null)
+  let containersRef = useRef(null)
+  let footerRef = useRef(null)
   useEffect(() => {
     gsap.from(containersRef.current, {
       duration: .4,
@@ -16,6 +17,7 @@ function Home() {
       y: 150,
       ease:'none'
     })
+
   },[])
     return (
       <div className="main-container">
@@ -36,7 +38,7 @@ function Home() {
             </article>
           </div>
         </section>
-        <Footer />
+        <Footer/>
       </div>
 
     )

@@ -16,9 +16,15 @@ function Navigation() {
 
     return (
       <div className="nav-container" ref={navRef} >
-        <Link to="/" className="nav-links">HOME </Link>
-        <Link to="/About" className="nav-links">ABOUT </Link>
-        <Link to="/Projects" className="nav-links">PROJECTS </Link>
+        <div>
+        <h1 className="logo">MD</h1>
+        </div>
+
+        <div>
+          <Link to="/" className="nav-links">HOME </Link>
+          <Link to="/About" className="nav-links">ABOUT </Link>
+          <Link to="/Projects" className="nav-links">PROJECTS </Link>
+        </div>
       </div>
     )
 }

@@ -1,9 +1,25 @@
 .nav-container{
   background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 8vh;
 }
 
 .nav-links {
   color: white;
   text-decoration: none;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 5px;
+  margin: 5px;
+}
+
+.logo{
+  color: white;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 5px;
+  margin: 5px;
 }
