@@ -1,0 +1,75 @@
+
+.container {
+    display: flex;
+    height: 90vh;
+}
+.about-me, .code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+
+.about-me {
+    background-image: url('imgs/aboutbg.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    padding: 1rem;
+    transition: all .2s ease-in-out;
+    color: white;
+    font-size: 1.2em;
+}
+
+.code {
+    background-image: url('imgs/codebg.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    padding: 1rem;
+    transition: all .2s ease-in-out;
+    color: white;
+    font-size: 1.2em;
+
+}
+.about-me:hover, .code:hover {
+    transform: scale(0.95);
+
+}
+.container h1 {
+    letter-spacing: 2px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 3rem;
+}
+
+
+.explore-btn {
+    border-radius: 2px;
+    color: #fff;
+    padding: 10px 6px;
+    margin: 0 1%;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family:  serif;
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 150px;
+}
+
+.explore-btn:hover {
+    background: #fff;
+    color: #333;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}

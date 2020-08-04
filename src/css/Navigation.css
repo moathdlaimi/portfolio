@@ -1,0 +1,9 @@
+.nav-container{
+  background-color: black;
+  height: 8vh;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+}
