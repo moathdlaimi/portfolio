@@ -27,14 +27,14 @@ function Home() {
             <article>
               <h1>&lt;About Me&gt;</h1>
               <h3>Passionate for developing beautiful and functional user interface.</h3>
-              <Link to={"/About"} className="explore-btn">Explore</Link>
+              <Link to={"/About"} className="explore-btn">Click</Link>
             </article>
           </div>
           <div className="code">
             <article>
               <h1>C&lt;&gt;de</h1>
               <h3>Focuses on writing clean,elegant and efficient code.</h3>
-                <Link to={"/Projects"} className="explore-btn">Explore</Link>
+                <Link to={"/Projects"} className="explore-btn">Click</Link>
             </article>
           </div>
         </section>

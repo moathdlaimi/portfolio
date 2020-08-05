@@ -44,44 +44,44 @@ function Projects() {
 
            <div className="sub-container"
             ref={el => project1 = el}>
+            <a href="https://gizmo-frontend.herokuapp.com/" target="_blank">
               <div className="gizmo-img"></div>
-             <a href="https://gizmo-frontend.herokuapp.com/" target="_blank">
-               <div className="text">Gizmo - tool share</div>
+               <div className="project-text">Gizmo - tool share</div>
              </a>
            </div>
 
            <div className="sub-container" ref={el => project2 = el}>
+            <a href="https://greatfood.herokuapp.com/" target="_blank">
              <div className="greatfood-img"></div>
-             <a href="https://greatfood.herokuapp.com/" target="_blank">
-               <div className="text">grEAT food - user contriubed recipes</div>
+               <div className="project-text">grEAT food - user contriubed recipes</div>
              </a>
            </div>
 
            <div className="sub-container" ref={el => project3 = el}>
+            <a href="https://cohortrolodex.herokuapp.com/" target="_blank">
              <div className="rolodex-img"></div>
-             <a href="https://cohortrolodex.herokuapp.com/" target="_blank">
-               <div className="text">Cohortrolodex - GA cohort</div>
+               <div className="project-text">Cohortrolodex - GA cohort</div>
              </a>
            </div>
 
            <div className="sub-container" ref={el => project4 = el}>
+            <a href="https://moathdlaimi.github.io/" target="_blank">
              <div className="weather-img"></div>
-             <a href="https://moathdlaimi.github.io/" target="_blank">
-               <div className="text">The Weather App</div>
+               <div className="project-text">The Weather App</div>
              </a>
            </div>
 
            <div className="sub-container" ref={el => project5 = el}>
+            <a href="https://sheltered-garden-16773.herokuapp.com/" target="_blank">
              <div className="wish-img"></div>
-             <a href="https://sheltered-garden-16773.herokuapp.com/" target="_blank">
-               <div className="text">React wishlist</div>
+               <div className="project-text">React wishlist</div>
              </a>
            </div>
 
            <div className="sub-container" ref={el => project6 = el}>
+            <a href="https://github.com/moathdlaimi/React_Calculator">
              <div className="calc-img"></div>
-             <a href="https://github.com/moathdlaimi/React_Calculator">
-               <div className="text">React - iOS mock calculator</div>
+               <div className="project-text">React - iOS mock calculator</div>
              </a>
            </div>
 
